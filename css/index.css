@@ -15,4 +15,13 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
+
+
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-info:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-what:before { content: '\e803'; } /* '' */
+.icon-happy:before { content: '\e804'; } /* '' */
