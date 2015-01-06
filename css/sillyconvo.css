@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'sillyconvo';
+    src: url('../fonts/sillyconvo.eot?61765168');
+    src: url('../fonts/sillyconvo.eot?61765168#iefix') format('embedded-opentype'),
+       url('../fonts/sillyconvo.woff?61765168') format('woff'),
+       url('../fonts/sillyconvo.ttf?61765168') format('truetype'),
+       url('../fonts/sillyconvo.svg?61765168#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "sillyconvo";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+
+    line-height: 1em;
+  margin-left: .2em;
+}
+ 
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-info:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-what:before { content: '\e803'; } /* '' */
+.icon-happy:before { content: '\e804'; } /* '' */
