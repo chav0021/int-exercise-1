@@ -172,4 +172,5 @@ label {
     top: 4rem;
     margin-left: -7rem;
     width: 20rem;
+    pointer-events: none;
 }
