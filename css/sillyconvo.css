@@ -17,7 +17,6 @@
 
     display: inline-block;
     text-decoration: inherit;
-    width: 1em;
     margin-right: .2em;
     text-align: center;
 
@@ -25,7 +24,8 @@
     text-transform: none;
 
     line-height: 1em;
-  margin-left: .2em;
+    margin-left: .2em;
+    font-size: 350%;
 }
  
 .icon-chat:before { content: '\e800'; } /* '' */
